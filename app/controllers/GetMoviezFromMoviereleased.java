@@ -121,7 +121,6 @@ public class GetMoviezFromMoviereleased {
             while (imdbMatcher.find()) {
                 imdbLink = imdbMatcher.group(2);
                 if (!imdbLink.matches("http://www.imdb.com/title/tt[0-9]+")) imdbLink = null;
-//                System.out.println("IMDB link: "+imdbMatcher.group(2) + "   ssss=" + imdbLink);
             }
             if (imdbLink != null && imdbLink.trim() != null) {
                 URL imdbUrl = new URL(imdbLink);
