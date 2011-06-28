@@ -1,0 +1,19 @@
+# You can specialize this file for each language.
+# For example, for French create a messages.fr file
+#
+views.main.tools.login = 登陆
+
+post = 文章
+Post = 文章
+posts = 文章
+Posts = 文章
+comment = 评论
+Comment = 评论
+comments = 评论
+Comments = 评论
+user = 用户
+User = 用户
+users = 用户
+Users = 用户
+
+views.Application.listTagged.title = Posts tagged with %s
