@@ -232,7 +232,7 @@ public class MovieInfoCrawler extends Job {
 		paramsBean.setUseExpectContinue(false);
 
 		params.setParameter("http.useragent",
-				"crawler4j (http://code.google.com/p/crawler4j/)");
+				"moviezCrawler (https://github.com/divxer/moviezcrawler)");
 
 		params.setIntParameter("http.socket.timeout", 20000);
 
@@ -275,8 +275,7 @@ public class MovieInfoCrawler extends Job {
                     }
                 }
 
-//                return entity.getContent();
-
+                // parse content
                 DOMParser parser = new DOMParser();
                 parser.setProperty(
                         "http://cyberneko.org/html/properties/default-encoding",
